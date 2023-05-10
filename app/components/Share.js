@@ -5,7 +5,7 @@ const Share = ({ url }) => {
   const shareTitle = "¡Únete a nuestro movimiento! Protejamos nuestas opciones de de movilidad y entregas.  Entra a   #yodecidocomomemuevo";  
   return (
     <div >
-      <FacebookShareButton url={url} quote={'¡Únete a nuestro movimiento! Protejamos nuestas opciones de de movilidad y entregas.  Entra a   #yodecidocomomemuevo'} hashtag="#yodecidocomomemuevo" className="share-buttons">
+      <FacebookShareButton url={url} quote={shareTitle.replace(/"/g, '&quot;')} hashtag="#yodecidocomomemuevo" className="share-buttons">
       <FacebookIcon size={32} round={true} />
       </FacebookShareButton>
       <TwitterShareButton url={url} title={shareTitle}className="share-buttons">
