@@ -60,7 +60,7 @@ const ThankYou = ({
               ? typData.data?.docs[0].shareText
               : typData.shareText}
           </h5>
-          <Share url="https://app04social.vercel.app/" />
+          <Share url="https://app05social.vercel.app/" />
         </div>
       </form>
     </div>
