@@ -8,7 +8,7 @@ const Share = ({ url }) => {
       <FacebookShareButton url={url} quote={shareTitle} hashtag="#yodecidocomomemuevo" className="share-buttons">
       <FacebookIcon size={32} round={true} />
       </FacebookShareButton>
-      <TwitterShareButton url={url} title={shareTitle} hashtag="#yodecidocomomemuevo" className="share-buttons">
+      <TwitterShareButton url={url} title={shareTitle} hashtags="#yodecidocomomemuevo" className="share-buttons">
       <TwitterIcon size={32} round={true} />
       </TwitterShareButton>
       <WhatsappShareButton url={url} title={shareTitle} className="share-buttons">
