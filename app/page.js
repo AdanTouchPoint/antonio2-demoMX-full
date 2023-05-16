@@ -8,7 +8,7 @@ import { fetchStatesData } from './assets/petitions/fetchStatesData';
 import { fetchTweet } from './assets/petitions/fetchTweet';
 import { fetchTYM } from './assets/petitions/fetchTYM';
 import { fetchMainContent } from './assets/petitions/fetchMainContent';
-import {fetchAllLeads} from '../assets/petitions/fetchLeads'
+import {fetchAllLeads} from './assets/petitions/fetchLeads'
 //require('dotenv').config()
 function Home() {
   const [emailData, setEmailData] = useState({
